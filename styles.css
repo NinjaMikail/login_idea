@@ -1,0 +1,127 @@
+body{
+    background-image: url(flat-design-polygonal-background_23-2148900723.webp);
+    background-size: cover;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+.box{
+    background-color: rgb(237, 237, 237);
+    box-shadow: -100px 80px rgb(174, 196, 201);
+    height: 680px;
+    width: 400px;
+    margin-left: 40%;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+    
+}
+label{
+    display: block;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+input{
+    font-size: 15px;
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+    width: 400px;
+    height: 40px;
+
+
+}
+h1{
+    font-size: 50px;
+}
+h1::before{
+    content:" ";
+    display:inline-block;
+    width: 20px;
+    height: 40px;
+    margin-right: 5px;
+    border: 1px solid rgb(78, 150, 150);
+    background-color: rgb(78, 150, 150);
+}
+button{
+    font-size: 17px;
+    text-align: center;
+    display: inline-block;
+    border: none;
+    background-color: rgb(174, 196, 201);
+    border-radius: 10px;
+    width: 410px;
+    height: 40px;
+}
+button:hover{cursor: pointer}
+button:hover{
+    background-color: rgb(78, 150, 150);
+    color: white;
+}
+img{
+    margin-top: 30px;
+    margin-left: 150px;
+    width: 100px;
+    height: 100px;
+}
+.extra_icon1{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border-radius: 10px;
+    right: 10px;
+    top: 306.5px;
+    background-size: cover;
+    background-image: url(0c3b3adb1a7530892e55ef36d3be6cb8.png);
+    
+}
+.extra_icon2{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border-radius: 10px;
+    right: 10px;
+    top: 394.5px;
+    background-size: cover;
+    background-image: url(17636.png);
+    
+}
+.login_box{
+    display: inline-block;
+    padding: 5px;
+    border-radius: 10px;
+    height: 80px;
+    width: 80px;
+    margin-top: 50px;
+    margin-left: 5px;
+    background-size: cover;
+}
+.google{
+    background-image:url(google_icon_130924.png) ;
+
+}
+.facebook{
+    background-image: url(facebook-6549798_960_720.webp);
+
+}
+.github{
+    background-image: url(Download.png);
+
+}
+.box2{
+    background-image: url(user-website-add-icon-signs-symbols-can-be-used-web-logo-mobile-app-ui-ux-white-background-141569893.jpeg);
+    border: 2px solid rgb(131, 184, 184);
+    padding: 5px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(78, 150, 150);
+}
+.box2:hover{
+    border: 2px solid rgb(78, 150, 150);
+}
